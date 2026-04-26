@@ -1,0 +1,77 @@
+# ── Build artifacts ──────────────────────────────────────────────────────────
+build/
+build-*/
+cmake-build-*/
+out/
+output/
+generated_kernels/
+lunara_compiled_*/
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.o
+*.obj
+
+# ── CMake ────────────────────────────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+.python-version
+.venv/
+venv/
+env/
+ENV/
+build_py/
+dist/
+wheels/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ── Lunara-specific ──────────────────────────────────────────────────────────
+.lunara_tuning_cache.json
+*.ptx
+*.cubin
+*.mlir.tmp
+roofline*.png
+*.ncu-rep
+
+# ── IDEs / editors ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── LLVM/MLIR ────────────────────────────────────────────────────────────────
+*.ll
+*.bc
+*.s
+
+# ── Dev Usage ────────────────────────────────────────────────────────────────
+docs/TODO.md
+DEVLOG.md

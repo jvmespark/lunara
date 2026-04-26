@@ -1,0 +1,20 @@
+# Lunara — Python requirements
+# Core (required)
+torch>=2.1.0
+triton>=2.1.0
+numpy>=1.21.0
+
+# Optional — profiling / roofline plotting
+matplotlib>=3.5.0
+
+# Optional — ONNX import
+onnx>=1.14.0
+onnxruntime>=1.16.0
+
+# Optional — development tools
+pytest>=7.0
+pytest-xdist
+pytest-cov
+black
+ruff
+mypy
